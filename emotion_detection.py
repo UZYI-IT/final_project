@@ -24,6 +24,9 @@ def emotion_detector(text_to_analyze):
     filteredOutput['dominant_emotion']= high_score
 
 
-    print(json.dumps(filteredOutput, indent=2))
+    # print(json.dumps(filteredOutput, indent=2))
+
+    return  filteredOutput
+    
 
     
